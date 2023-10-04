@@ -3,3 +3,5 @@ Flask-SQLAlchemy
 sqlalchemy
 requests
 flask-cors
+google-cloud-secret-manager
+pymysql
