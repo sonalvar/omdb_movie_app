@@ -2,7 +2,6 @@ from db_initialization import initdb_command
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.exc import IntegrityError
 
 import movie_controller
 from auth import authorize

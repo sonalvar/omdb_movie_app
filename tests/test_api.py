@@ -117,5 +117,6 @@ class AppTestCase(unittest.TestCase):
         self.assertEqual(data['page'], 2)
         self.assertEqual(data['per_page'], 5)
 
+
 if __name__ == '__main__':
     unittest.main()

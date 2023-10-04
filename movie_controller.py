@@ -2,6 +2,8 @@ from api import app
 from models import Movie
 from omdb_util import fetch_movie_data_from_omdb
 from session_manager import session
+from flask import jsonify
+from sqlalchemy.exc import IntegrityError
 
 
 def add_movie(data):
